@@ -12,6 +12,9 @@
 // Verified 27 Nov 2026 ~22:30 WIB: the copy reproduces entry.png byte
 // for byte (md5 4e20343dac16768e2f945e9b0c8b840e), and the page was read
 // at full size, cropped row by row, and at 300px before submitting.
+// Re-verified after the GitHub push (22:32 WIB): all five remote files
+// byte-identical to local (entry.png md5 4e20343d...), root commit holds
+// only .makefun/freshness.json, HEAD f3c994bd.
 //
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
